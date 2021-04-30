@@ -9,15 +9,21 @@ import {
 
 function App() {
   return (
-    <Router>
-      <Switch></Switch>
     <div className="App">
+    <Router>
+      
+    
       <h1>
      SEUM SALAMOON ALAIKOOM SALAMOON SALAMOON
      </h1>
-     <Home/>
-    </div>
+     <Switch>
+        <Route path="/"> <Home/> </Route>
+      </Switch>
+      <Switch>
+        <Route path="/search"> <SearchPage/> </Route>
+      </Switch>
     </Router>
+    </div>
   );
 }
 
