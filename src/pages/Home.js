@@ -9,10 +9,14 @@ function Home() {
             <div className='home__header'>
                 <div className='home__headerLeft'>
                     <Link to='/about'>About</Link>
+                    <Link to='/store'>Store</Link>
 
                 </div>
+                <br/>
 
                 <div className='home__headerRight'>
+                <Link to='/gmail'>Gmail</Link>
+                    <Link to='/images'>Images</Link>
 
                 </div>
 
