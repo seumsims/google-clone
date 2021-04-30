@@ -20,7 +20,7 @@ function App() {
         <Route path="/"> <Home/> </Route>
       </Switch>
       <Switch>
-        <Route path="/search"> <SearchPage/> </Route>
+        <Route path="/search"> <h1> SALAM From Search Page </h1> </Route>
       </Switch>
     </Router>
     </div>
