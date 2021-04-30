@@ -10,6 +10,7 @@ import {
 function App() {
   return (
     <Router>
+      <Switch></Switch>
     <div className="App">
       <h1>
      SEUM SALAMOON ALAIKOOM SALAMOON SALAMOON
