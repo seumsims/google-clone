@@ -12,7 +12,7 @@ function Home() {
                     <Link to='/store'>Store</Link>
 
                 </div>
-                <br/>
+                
 
                 <div className='home__headerRight'>
                 <Link to='/gmail'>Gmail</Link>
