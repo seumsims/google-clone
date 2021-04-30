@@ -5,7 +5,7 @@ import {
   Switch,
   Route,
   Link
-} from "react-router-dom";
+} from 'react-router-dom';
 
 function App() {
   return (
@@ -17,10 +17,10 @@ function App() {
      SEUM SALAMOON ALAIKOOM SALAMOON SALAMOON
      </h1>
      <Switch>
-        <Route path="/"> <Home/> </Route>
+        <Route path='/'> <Home/> </Route>
       </Switch>
       <Switch>
-        <Route path="/search"> <h1> SALAM From Search Page </h1> </Route>
+        <Route path='/search'> <h1> SALAM From Search Page </h1> </Route>
       </Switch>
     </Router>
     </div>
