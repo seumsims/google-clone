@@ -11,16 +11,15 @@ import {
 function App() {
   return (
     <div className="App">
-    <Router>
-      
-    
+      <div>
       <h1>
      SEUM SALAMOON ALAIKOOM SALAMOON SALAMOON
      </h1>
-     <Switch>
-        <Route path='/'> <Home/> </Route>
-      </Switch>
+      </div>
+    <Router>
       <Switch>
+        <Route path='/'> <Home/> </Route>
+      
         <Route path='/search'> <h1> SALAM From Search Page </h1> </Route>
       </Switch>
     </Router>
