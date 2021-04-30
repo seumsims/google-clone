@@ -1,5 +1,9 @@
 import React from "react"
 import "./Home.css";
+
+import AppsIcon from "@material-ui/icons/Apps";
+
+import LockOpenIcon from "@material-ui/icons/LockOpen";
 import { Link } from "react-router-dom";
 
 function Home() {
@@ -17,6 +21,9 @@ function Home() {
                 <div className='home__headerRight'>
                 <Link to='/gmail'>Gmail</Link>
                     <Link to='/images'>Images</Link>
+                    <AppsIcon/>
+                    <LockOpenIcon/>
+                  
 
                 </div>
 
