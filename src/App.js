@@ -9,12 +9,14 @@ import {
 
 function App() {
   return (
+    <Router>
     <div className="App">
       <h1>
      SEUM SALAMOON ALAIKOOM SALAMOON SALAMOON
      </h1>
      <Home/>
     </div>
+    </Router>
   );
 }
 
