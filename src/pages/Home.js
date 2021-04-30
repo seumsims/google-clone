@@ -6,6 +6,13 @@ function Home() {
         <div className='home'>
             <h1>SALAM from Home</h1>
             <div className='home__header'>
+                <div className='home__headerLeft'>
+
+                </div>
+
+                <div className='home__headerRight'>
+
+                </div>
 
             </div>
 
