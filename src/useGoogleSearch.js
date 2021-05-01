@@ -4,7 +4,7 @@ import API_KEY from './keys';
 const CONTEXT_KEY = "9c02f919021fa6113";
 
 const useGoogleSearch = (term) => {
-    const [data, setData] = useState[null];
+    const [data, setData] = useState(null);
 
     useEffect(() => {
         //effect
