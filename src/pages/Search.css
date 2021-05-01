@@ -56,3 +56,7 @@
     color: #222;
 
 }
+
+.search_buttonsHidden {
+    display: none !important;
+}
