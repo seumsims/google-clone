@@ -14,20 +14,17 @@ function App() {
       </div>
     <Router>
     <Link to="/test">Test</Link>
-      <Switch>
-        <Route path="/">
-           <Home /> 
-        </Route>
-      
-        <Route path="/search"> 
-        <h1> SALAM From Search Page </h1> 
-        </Route>
+    <Switch>
+          
+    <Route path="/search">
+            
+            </Route>
+          <Route path="/">
+            <Home />
+          </Route>
 
-        <Route path="/test"> 
-        <h1> SALAM From Search Page </h1> 
-        </Route>
-
-      </Switch>
+         
+        </Switch>
     </Router>
     </div>
   );
