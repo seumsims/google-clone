@@ -1,10 +1,11 @@
-import React from "react"
-import "./Home.css";
+import React from 'react';
+import './Home.css';
 
-import AppsIcon from "@material-ui/icons/Apps";
+import AppsIcon from '@material-ui/icons/Apps';
 
-import LockOpenIcon from "@material-ui/icons/LockOpen";
-import { Link } from "react-router-dom";
+import LockOpenIcon from '@material-ui/icons/LockOpen';
+import { Link } from 'react-router-dom';
+import Search from './Search';
 
 function Home() {
     return (
@@ -33,6 +34,10 @@ function Home() {
                 <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" />
 
             <div className='home_inputContainer'> 
+
+            <Search/>
+
+
 
             </div>
             </div>
