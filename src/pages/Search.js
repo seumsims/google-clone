@@ -11,16 +11,16 @@ import './Search.css';
 function Search() {
     const [input, setInput] = useState('');
 
-    const search = e  => {
+    const search = (e)  => {
         e.preventDefault();
-        console.log(" You Hit The Search");
+        console.log(" You Hit The Search Button", input);
     }
     return (
-        <div className='search'>
+        <form className='search'>
             <div className='search__input'>
                 <SearchIcon className='search__inputIcon'/>
 
-                    <input value={input} onChange={e => setInput(e.target.value)}/>
+                    <input  value={input} onChange={e => setInput(e.target.value)}/>
 
                     <MicIcon/>
 
@@ -28,12 +28,12 @@ function Search() {
 
             </div>
             <div className='search__buttons'>
-                <Button onClick={search} variant="outlined">Google Search</Button>
+                <Button  type="submit" onClick={search} variant="outlined">Google Search</Button>
                 <Button variant="outlined">I'am Feeling Lucky</Button>
 
             </div>
             
-        </div>
+        </form>
     )
 }
 
