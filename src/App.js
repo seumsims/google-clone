@@ -18,6 +18,7 @@ function App() {
           
     <Route path="/search">
             <h1>
+            <Link to="/">Home</Link>
               SALAM From Search Page
             </h1>
             </Route>
