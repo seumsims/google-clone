@@ -4,6 +4,7 @@ import './Home.css';
 import AppsIcon from '@material-ui/icons/Apps';
 
 import LockOpenIcon from '@material-ui/icons/LockOpen';
+// eslint-disable-next-line
 import { Link } from 'react-router-dom';
 import Search from './Search';
 
@@ -13,6 +14,7 @@ function Home() {
             <h1>SALAM from Home Js</h1>
             <div className='home__header'>
                 <div className='home__headerLeft'>
+                
                     <Link to='/about'>About</Link>
                     <Link to='/store'>Store</Link>
 
@@ -31,6 +33,7 @@ function Home() {
             </div>
 
             <div className='home__body'>
+            
                 <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" />
 
             <div className='home_inputContainer'> 

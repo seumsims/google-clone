@@ -1,12 +1,8 @@
 import React from "react";
 import "./App.css";
 import Home from "./pages/Home";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+// eslint-disable-next-line
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
   return (

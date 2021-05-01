@@ -9,6 +9,9 @@ import './Search.css';
 //import { Button } from '@material-ui/core';
 
 function Search() {
+    const search = e  => {
+        e.preventDefault();
+    }
     return (
         <div className='search'>
             <div className='search__input'>
@@ -22,7 +25,7 @@ function Search() {
 
             </div>
             <div className='search__buttons'>
-                <Button variant="outlined">Google Search</Button>
+                <Button onClick={search} variant="outlined">Google Search</Button>
                 <Button variant="outlined">I'am Feeling Lucky</Button>
 
             </div>
