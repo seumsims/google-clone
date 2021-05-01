@@ -5,15 +5,19 @@ import './Search.css';
  import MicIcon from '@material-ui/icons/Mic';
 
  import Button from '@material-ui/core/Button';
+ import { useHistory } from 'react-router-dom';
 // or
 //import { Button } from '@material-ui/core';
 
 function Search() {
     const [input, setInput] = useState('');
+    const history = useHistory();
+    
 
     const search = (e)  => {
         e.preventDefault();
         console.log(" You Hit The Search Button => ", input);
+        history.push('/search');
     }
     return (
         <form className='search'>
