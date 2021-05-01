@@ -6,10 +6,12 @@ import './Search.css';
 
  import Button from '@material-ui/core/Button';
  import { useHistory } from 'react-router-dom';
+ import { useStateValue } from '../StateProvider';
 // or
 //import { Button } from '@material-ui/core';
 
 function Search( { hideButtons = false }) {
+    const [state, dispatch] = useStateValue();
     const [input, setInput] = useState('');
     const history = useHistory();
     
