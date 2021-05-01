@@ -7,12 +7,15 @@ function SearchPage() {
     // eslint-disable-next-line
     const [{ term }, dispatch] = useStateValue();
     const { data } = useGoogleSearch(term);
-    
+    console.log(data);
+
     return (
 
         // https://developers.google.com/custom-search/v1/overview
 
         // https://cse.google.com/cse/create/new
+
+        
 
         <div className='searchPage'>
             <div className='searchPage__header'>
