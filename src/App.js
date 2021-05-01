@@ -17,11 +17,20 @@ function App() {
     <Switch>
           
     <Route path="/search">
-            
+            <h1>
+              SALAM From Search Page
+            </h1>
+            </Route>
+            <Route path="/test">
+            <h1>
+              SALAM From Test Page
+            </h1>
             </Route>
           <Route path="/">
             <Home />
           </Route>
+
+          
 
          
         </Switch>
