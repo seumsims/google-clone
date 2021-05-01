@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Search.css';
 //import { SearchIcon } from '@material-ui/icons/Search';
  import SearchIcon from '@material-ui/icons/Search';
@@ -9,6 +9,8 @@ import './Search.css';
 //import { Button } from '@material-ui/core';
 
 function Search() {
+    const [input, setInput] = useState('');
+
     const search = e  => {
         e.preventDefault();
     }
