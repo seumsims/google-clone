@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import Home from "./pages/Home";
+import SearchPage from "./pages/SearchPage";
 // eslint-disable-next-line
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
@@ -17,10 +18,7 @@ function App() {
     <Switch>
           
     <Route path="/search">
-            <h1>
-            <Link to="/">Home</Link>
-              SALAM From Search Page
-            </h1>
+            <SearchPage />
             </Route>
             <Route path="/test">
             <h1>
