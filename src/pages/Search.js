@@ -4,6 +4,10 @@ import './Search.css';
  import SearchIcon from '@material-ui/icons/Search';
  import MicIcon from '@material-ui/icons/Mic';
 
+ import Button from '@material-ui/core/Button';
+// or
+//import { Button } from '@material-ui/core';
+
 function Search() {
     return (
         <div className='search'>
@@ -15,6 +19,11 @@ function Search() {
                     <MicIcon/>
 
                 
+
+            </div>
+            <div className='search__buttons'>
+                <Button>Google Search</Button>
+                <Button variant="outlined">I'am Feeling Lucky</Button>
 
             </div>
             
