@@ -9,7 +9,7 @@ import './Search.css';
 // or
 //import { Button } from '@material-ui/core';
 
-function Search( hideButtons = false ) {
+function Search( { hideButtons = false }) {
     const [input, setInput] = useState('');
     const history = useHistory();
     
@@ -31,15 +31,15 @@ function Search( hideButtons = false ) {
                 
 
             </div>
-            {!hideButtons ? (
+            { !hideButtons ? (
             <div className='search__buttons'>
                 <Button  type="submit" onClick={search} variant="outlined">Google Search</Button>
                 <Button variant="outlined">I'am Feeling Lucky</Button>
 
             </div> ) : (
                 <div className='search__buttons'>
-                <Button  className='search_buttonsHidden' type="submit" onClick={search} variant="outlined">Google Search</Button>
-                <Button className='search_buttonsHidden' variant="outlined">I'am Feeling Lucky</Button>
+                <Button  className='search__buttonsHidden' type="submit" onClick={search} variant="outlined">Google Search</Button>
+                <Button className='search__buttonsHidden' variant="outlined">I'am Feeling Lucky</Button>
 
             </div>
             )
