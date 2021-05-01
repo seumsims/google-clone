@@ -13,6 +13,7 @@ function Search() {
 
     const search = e  => {
         e.preventDefault();
+        console.log(" You Hit The Search");
     }
     return (
         <div className='search'>
