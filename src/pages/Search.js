@@ -13,7 +13,7 @@ function Search() {
 
     const search = (e)  => {
         e.preventDefault();
-        console.log(" You Hit The Search Button", input);
+        console.log(" You Hit The Search Button => ", input);
     }
     return (
         <form className='search'>
