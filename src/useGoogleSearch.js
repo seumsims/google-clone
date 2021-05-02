@@ -6,6 +6,8 @@ const CONTEXT_KEY = "9c02f919021fa6113";
 const useGoogleSearch = (term) => {
     const [data, setData] = useState(null);
 
+    
+
     useEffect(() => {
         //effect
         const fetchData = async() => {
@@ -32,6 +34,6 @@ const useGoogleSearch = (term) => {
 
     return {  data }
     
-}
+};
 
 export default useGoogleSearch
