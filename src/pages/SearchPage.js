@@ -1,12 +1,16 @@
 import React from 'react'
 import { useStateValue } from '../StateProvider'
+// eslint-disable-next-line
 import useGoogleSearch from '../useGoogleSearch';
 import './SearchPage.css'
+import Response from './response'
 
 function SearchPage() {
     // eslint-disable-next-line
     const [{ term }, dispatch] = useStateValue();
-    const { data } = useGoogleSearch(term);
+    //Live API Call
+    //const { data } = useGoogleSearch(term);
+    const data = Response
     console.log(data);
 
     return (
