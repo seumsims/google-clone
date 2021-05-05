@@ -31,7 +31,7 @@ function SearchPage() {
                  src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="google-logo"/>
                 </Link>
                 <div className="searchPage__headerBody">
-                    <Search hidebuttons/>
+                    <Search hideButtons/>
 
                 </div>
             </div>
