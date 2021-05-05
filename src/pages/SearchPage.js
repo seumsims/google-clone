@@ -5,6 +5,7 @@ import useGoogleSearch from '../useGoogleSearch';
 import './SearchPage.css'
 import Response from './response'
 import { Link } from 'react-router-dom';
+import Search from './Search'
 
 function SearchPage() {
     // eslint-disable-next-line
@@ -29,6 +30,10 @@ function SearchPage() {
                 <img className="searchPage__logo"
                  src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="google-logo"/>
                 </Link>
+                <div className="searchPage__headerBody">
+                    <Search hidebuttons/>
+
+                </div>
             </div>
 
         <div className='searchPage__results'>
