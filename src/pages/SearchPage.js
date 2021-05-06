@@ -7,6 +7,11 @@ import Response from './response'
 import { Link } from 'react-router-dom';
 import Search from './Search'
 import SearchIcon from '@material-ui/icons/Search';
+import DescriptionIcon from '@material-ui/icons/Description'
+import ImageIcon from '@material-ui/icons/Image'
+import LocalOfferIcon from '@material-ui/icons/LocalOffer'
+import RoomIcon from '@material-ui/icons/Room'
+import MoreVertIcon from '@material-ui/icons/MoreVert'
 
 function SearchPage() {
     // eslint-disable-next-line
@@ -46,7 +51,7 @@ function SearchPage() {
 
                     <div className="serachPage__option">
 
-                        <SearchIcon />
+                        <DescriptionIcon />
                         <Link to="/news">New</Link>
                         
                     </div>
@@ -54,7 +59,7 @@ function SearchPage() {
                     
                     <div className="serachPage__option">
 
-                        <SearchIcon />
+                        <ImageIcon/>
                         <Link to="/images">Images</Link>
                         
                     </div>
@@ -62,21 +67,21 @@ function SearchPage() {
                     
                     <div className="serachPage__option">
 
-                        <SearchIcon />
+                        <LocalOfferIcon />
                         <Link to="/shopping">Shopping</Link>
                         
                     </div>
 
                     <div className="serachPage__option">
 
-                        <SearchIcon />
+                        <RoomIcon/>
                         <Link to="/maps">Maps</Link>
                         
                     </div>
 
                     <div className="serachPage__option">
 
-                        <SearchIcon />
+                        <MoreVertIcon />
                         <Link to="/more">More</Link>
                         
                     </div>
