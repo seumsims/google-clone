@@ -88,6 +88,18 @@ function SearchPage() {
 
                     </div>
 
+                    <div className="serachPage__optionsRight">
+
+                    <div className="serachPage__option">
+                        <Link to="/settings">Settings</Link>
+                    </div>
+
+                    <div className="serachPage__option">
+                        <Link to="/tools">Tools</Link>
+                    </div>
+
+                    </div >
+
                     </div>
 
                 </div>
