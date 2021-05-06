@@ -3,6 +3,7 @@ import { useStateValue } from '../StateProvider'
 // eslint-disable-next-line
 import useGoogleSearch from '../useGoogleSearch';
 import './SearchPage.css'
+ // eslint-disable-next-line
 import Response from './response'
 import { Link } from 'react-router-dom';
 import Search from './Search'
