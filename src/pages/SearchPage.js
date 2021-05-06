@@ -129,6 +129,10 @@ function SearchPage() {
                          <h2>{item.title}</h2>
 
                         </a>
+                        <p className="searchPage__resultSnippet">
+                            {item.snippet}
+
+                        </p>
                      </div>
                 ))
             }
