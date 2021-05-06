@@ -22,3 +22,32 @@
     margin:unset;
     max-width: unset;
 }
+
+.serachPage__options {
+    display: flex;
+    align-items: center;
+    color: grey;
+}
+
+.serachPage__options a, .serachPage__optionsRight a  {
+    text-decoration: none;
+    color: gray;
+}
+
+.serachPage__optionsLeft , .serachPage__optionsRight {
+    display: flex;
+}
+
+.serachPage__optionsRight {
+    margin-left: 80px;
+}
+
+.serachPage__option {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.serachPage__option a {
+    margin-left: 5px;
+}
