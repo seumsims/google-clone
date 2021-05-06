@@ -42,7 +42,44 @@ function SearchPage() {
                         <SearchIcon />
                         <Link to="/all">ALL</Link>
                         
-                        </div>
+                    </div>
+
+                    <div className="serachPage__option">
+
+                        <SearchIcon />
+                        <Link to="/news">New</Link>
+                        
+                    </div>
+
+                    
+                    <div className="serachPage__option">
+
+                        <SearchIcon />
+                        <Link to="/images">Images</Link>
+                        
+                    </div>
+
+                    
+                    <div className="serachPage__option">
+
+                        <SearchIcon />
+                        <Link to="/shopping">Shopping</Link>
+                        
+                    </div>
+
+                    <div className="serachPage__option">
+
+                        <SearchIcon />
+                        <Link to="/maps">Maps</Link>
+                        
+                    </div>
+
+                    <div className="serachPage__option">
+
+                        <SearchIcon />
+                        <Link to="/more">More</Link>
+                        
+                    </div>
 
                     </div>
 
