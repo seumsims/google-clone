@@ -17,8 +17,10 @@ function SearchPage() {
     // eslint-disable-next-line
     const [{ term='flower' }, dispatch] = useStateValue();
     //Live API Call
-    //const { data } = useGoogleSearch(term);
-    const data = Response
+    const { data } = useGoogleSearch(term);
+
+    // Mock API Call
+    // const data = Response
     console.log(data);
 
     return (
