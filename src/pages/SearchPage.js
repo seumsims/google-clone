@@ -109,7 +109,9 @@ function SearchPage() {
         
         <div className='searchPage__results'>
             <p  className='searchPage__resultCount'>
-                About { data?.searchInformation.formattedTotalResults  } results ( 0 .3 seconds ) For Flowers
+                About { data?.searchInformation.formattedTotalResults  }
+               
+                results  { data?.searchInformation.formattedSearchTime  } For Flowers
             </p>
 
         </div>
