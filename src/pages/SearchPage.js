@@ -104,10 +104,19 @@ function SearchPage() {
 
                 </div>
             </div>
-
+        
+        {true && ( 
+        
         <div className='searchPage__results'>
-            
+            <p  className='searchPage__resultCount'>
+                About 300000 results ( 0 .3 seconds ) For Flowers
+            </p>
+
         </div>
+
+        )}
+
+        
             
         </div>
     )
