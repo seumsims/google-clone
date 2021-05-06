@@ -15,7 +15,7 @@ import MoreVertIcon from '@material-ui/icons/MoreVert'
 
 function SearchPage() {
     // eslint-disable-next-line
-    const [{ term }, dispatch] = useStateValue();
+    const [{ term='flower' }, dispatch] = useStateValue();
     //Live API Call
     //const { data } = useGoogleSearch(term);
     const data = Response
@@ -109,9 +109,10 @@ function SearchPage() {
         
         <div className='searchPage__results'>
             <p  className='searchPage__resultCount'>
-                About { data?.searchInformation.formattedTotalResults  }
+                About ( { data?.searchInformation.formattedTotalResults  } )
                
-                results  { data?.searchInformation.formattedSearchTime  } For Flowers
+                results  ( { data?.searchInformation.formattedSearchTime  } seconds )
+                For {term}
             </p>
 
         </div>
