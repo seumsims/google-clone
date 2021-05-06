@@ -122,7 +122,25 @@ function SearchPage() {
 
                         {item.displayLink} 
 
+                        <a className="searchPage__resultTitle" href={item.link}>
+                            {item.pagemap?.cse_image?.length > 0 && 
+                            item.pagemap?.cse_image
+                            [0]?.src && (
+                                <img className="searchPage__resultImage" src={
+
+                                    item.pagemap?.cse_image?.length > 0 && 
+                                    item.pagemap?.cse_image[0]?.src
+
+                                } alt="searchPage__resultImage" />
+                            )
+                            }
+
+
+
                         </a>
+
+                        </a>
+
 
                         <a className="searchPage__resultTitle" href={item.link}>
 
